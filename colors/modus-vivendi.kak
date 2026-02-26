@@ -96,7 +96,6 @@ set-face global BufferPadding "%opt{bg_main},%opt{bg_main}"
 set-face global ts_keyword                      "%opt{purple_bright}"
 set-face global ts_keyword_conditional          "%opt{purple_bright}+i"
 set-face global ts_keyword_control_conditional  "%opt{purple_bright}+i"
-set-face global ts_keyword_control_directive    "%opt{red_bright}+i"
 set-face global ts_keyword_control_import       "%opt{purple_bright}+i"
 set-face global ts_keyword_directive            "%opt{red_bright}+i"
 set-face global ts_keyword_storage              "%opt{purple_bright}"
@@ -108,15 +107,17 @@ set-face global ts_keyword_storage_modifier_ref "%opt{cyan_cooler}"
 set-face global ts_function                     "%opt{purple}"
 set-face global ts_function_builtin             "%opt{magenta_warmer}+i"
 set-face global ts_function_macro               "%opt{red_bright}"
+set-face global ts_function_method              "%opt{purple}"
 
 # -- Types --
 set-face global ts_type                         "%opt{cyan_cooler}"
+set-face global ts_type_builtin                 "%opt{cyan_cooler}"
 set-face global ts_type_enum_variant            "%opt{cyan_warmer}"
+set-face global ts_type_parameter               "%opt{cyan}+i"
 set-face global ts_constructor                  "%opt{cyan_cooler}"
 
 # -- Strings --
 set-face global ts_string                       "%opt{blue_warmer}"
-set-face global ts_string_regex                 "%opt{green_bright}"
 set-face global ts_string_regexp                "%opt{green_bright}"
 set-face global ts_string_escape                "%opt{purple}"
 set-face global ts_string_special               "%opt{blue}"
@@ -126,9 +127,11 @@ set-face global ts_string_symbol                "%opt{red_bright}"
 
 # -- Constants --
 set-face global ts_constant                     "%opt{blue_bright}"
+set-face global ts_constant_builtin             "%opt{blue_bright}"
 set-face global ts_constant_builtin_boolean     "%opt{blue_bright}"
 set-face global ts_constant_character           "%opt{blue_bright}"
 set-face global ts_constant_macro               "%opt{red_bright}"
+set-face global ts_constant_numeric             "%opt{blue_bright}"
 
 # -- Variables --
 set-face global ts_variable                     "%opt{cyan}"
@@ -138,6 +141,7 @@ set-face global ts_variable_parameter           "%opt{cyan}+i"
 
 # -- Comments & operators --
 set-face global ts_comment                      "%opt{fg_dim}+i"
+set-face global ts_comment_unused               "%opt{fg_dim}+is"
 set-face global ts_operator                     "%opt{fg_main}"
 set-face global ts_punctuation                  "%opt{fg_dim}"
 set-face global ts_punctuation_special          "%opt{purple_bright}"
@@ -184,6 +188,8 @@ set-face global ts_hint                         "%opt{blue}+b"
 set-face global ts_info                         "%opt{green}+b"
 
 # -- Others --
+set-face global ts_embedded                     "%opt{purple_bright}"
+set-face global ts_include                      "%opt{purple_bright}"
 set-face global ts_tag                          "%opt{purple_bright}"
 set-face global ts_tag_error                    "%opt{red}"
 set-face global ts_text                         "%opt{fg_main}"
