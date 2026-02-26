@@ -26,9 +26,9 @@ declare-option str cursor 'rgb:000000'
 declare-option str bg_hl_line 'rgb:f1d5d0'
 declare-option str fg_space 'rgb:9f9690'
 declare-option str magenta_warmer 'rgb:8f0075'
-declare-option str blue_warmer 'rgb:3548cf'
-declare-option str cyan 'rgb:005e8b'
-declare-option str cyan_warmer 'rgb:3f578f'
+declare-option str blue_warmer 'rgb:3546c2'
+declare-option str cyan 'rgb:00598b'
+declare-option str cyan_warmer 'rgb:32548f'
 declare-option str cyan_cooler 'rgb:005f5f'
 
 declare-option str psel 'rgb:c2bcb5'
@@ -190,6 +190,7 @@ set-face global ts_info                         "%opt{green}+b"
 # -- Others --
 set-face global ts_embedded                     "%opt{purple_bright}"
 set-face global ts_include                      "%opt{purple_bright}"
+set-face global ts_load                         "%opt{purple_bright}"
 set-face global ts_tag                          "%opt{purple_bright}"
 set-face global ts_tag_error                    "%opt{red}"
 set-face global ts_text                         "%opt{fg_main}"

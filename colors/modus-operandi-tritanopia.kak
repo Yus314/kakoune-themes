@@ -190,6 +190,7 @@ set-face global ts_info                         "%opt{green}+b"
 # -- Others --
 set-face global ts_embedded                     "%opt{purple_bright}"
 set-face global ts_include                      "%opt{purple_bright}"
+set-face global ts_load                         "%opt{purple_bright}"
 set-face global ts_tag                          "%opt{purple_bright}"
 set-face global ts_tag_error                    "%opt{red}"
 set-face global ts_text                         "%opt{fg_main}"
